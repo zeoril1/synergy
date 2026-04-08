@@ -1,7 +1,7 @@
-print("Введите максимальную массу лодки (m):")
+print("Введите максимальную массу лодки")
 m = int(input())
 
-print("Введите количество рыбаков (n):")
+print("Введите количество рыбаков")
 n = int(input())
 
 weights = []
@@ -9,7 +9,7 @@ weights = []
 i = 0
 while i < n:
     i = i + 1
-    print("Введите вес %i-го рыбака:" % i)
+    print("Введите вес %i-го рыбака" % i)
     weights.append(int(input()))
 
 weights.sort()
