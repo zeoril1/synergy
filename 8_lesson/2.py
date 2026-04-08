@@ -5,13 +5,12 @@ numbers = str(input())
 
 numbers = numbers.split(",")
 newNumbers = []
-i=0
+i = 0
 
 while i < sumNumbers:
     if i == sumNumbers - 1:
         newNumbers.append(numbers[0])
     else:
-        newNumbers.append(numbers[i+1])
+        newNumbers.append(numbers[i + 1])
     i = i + 1
 print(newNumbers)
-

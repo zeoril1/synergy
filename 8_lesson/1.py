@@ -2,7 +2,7 @@ print("Введите количество вводимых чисел от 1 д
 sumNumbers = int(input())
 
 numbers = []
-i=0
+i = 0
 
 while i < sumNumbers:
     i = i + 1
